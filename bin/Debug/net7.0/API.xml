@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>API</name>
+    </assembly>
+    <members>
+        <member name="M:API.Controllers.Logs.LogsController.GetLogs">
+            <summary>
+            Obtener todos los logs
+            </summary>
+            <remarks>
+            Método para consultar todos los logs
+            </remarks>
+            <response code="401">Unauthorized. No se ha indicado o es incorrecto el token JWT de acceso</response>
+        </member>
+    </members>
+</doc>
